@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+header {
+  background-color: #005f73;
+  color: white;
+  padding: 1em 0;
+  text-align: center;
+}
+
+main {
+  padding: 1em;
+}
+
+section {
+  margin: 2em 0;
+  padding: 1em;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+h2 {
+  color: #005f73;
+}
+
+.gauge {
+  text-align: center;
+}
+
+#power-gauge {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  background: conic-gradient(#2a9d8f 0% 50%, #e76f51 50% 100%);
+  border-radius: 50%;
+}
+
+#power-value {
+  font-size: 1.5em;
+  margin-top: 0.5em;
+}
+
+canvas {
+  width: 100%;
+  max-width: 600px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #ddd;
+  color: #555;
+}
